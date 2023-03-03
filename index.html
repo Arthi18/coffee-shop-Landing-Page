@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee-landing-page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./images/coffee-house-logo.png" alt="logo">
+                </div>
+                <div class="nav-elements">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <div class="hero-div" id="home">
+            <div class="Hero-content">
+                <h1>Arthi's coffee Shop</h1>
+                <p>Today's good mood is sponsored by coffee search for your coffee now</p>
+                 <div class="btns">
+                    <a href="#shop-now"><button class="shop-now">Shop-Now</button></a>
+                    <a href="#shop-now"><button class="catalog">Catalog</button></a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./images/face-mask img.png" alt="Hero-img">
+            </div>
+        </div>
+        </div>
+    </main>
+    <section class="section-1" id="about">
+        <div class="container">
+            <div class="coffee-machine-content1">
+            <div class="coffee-machine-img">
+                <img src="./images/coffee machine.png"
+                 alt="coffee-machine-image">
+            </div>
+            <div class="about-coffee-machine">
+                <h3>Our Story!</h3>
+                <p>Eliza is an online coffee store that offers the widest selection of specialty coffees and teas from around the world. From medium-dark roast single origin to flavored espresso beans, they offer a variety of ethically sourced products to tantalize any customer’s palate. For those looking for unique brewing equipment, Eliza also carries a full range of quality espresso makers, grinders, brewers, French presses and more. On top of all that, their baristas are highly trained professionals who know exactly how to make the perfect cup for each customer. </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <article>
+        <div class="container">
+            <div class="our-service" id="menu">
+                <h3>Services</h3>
+                <div class="service-images">
+                    <div class="img1">
+                    <img src="./images/Equipment (1).png" alt="Equipment">
+                    <p>Equipment</p>
+                    </div>
+                    <div class="img1">
+                    <img src="./images/Type of cofee.png" alt="Type of coffee">
+                    <p>Type of Coffee</p>
+                </div>
+                    <div class="img1">
+                    <img src="./images/Take a way.png" alt="Take a way">
+                    <p>Take a way</p>
+                </div>
+                    <div class="img1">
+                    <img src="./images/Beans Variant.png" alt="Beans Varient">
+                    <p>Beans Variant</p>
+                </div>
+                    <div class="img1">
+                    <img src="./images/Pastry.png" alt="Pastry">
+                    <p>Pastry</p>
+                </div>
+                </div>            
+            </div>
+        </div>
+    </article>
+    <article class="offer">
+        <div class="container">
+            <div class="offer-details">
+                <div class="offer-content">
+                    <h3>Offer</h3>
+                    <h4>Up to 50% Offer</h4>
+                    <p>At our cafe, we take pride in providing our customers with the best coffee around. Our carefully-selected coffees come from some of the most renowned coffee growing regions in the world, ensuring that each cup is unrivaled in flavor and freshness.</p>
+                </div>
+                <div class="offer-image">
+                    <img src="./images/coffee pack.png" alt="coffee pack">
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="reserve-section-2">
+        <div class="container">
+            <h3>Reserve a table</h3>
+            <div class="reserve-div">
+            <div class="coffee-reserve-img">
+                <img src="./images/boy-girl coffee meet.png" alt="coffee-sharing">
+            </div>
+            <div class="coffee-reserve-form">
+               <label>Date<input type="date" required></label>
+               <div class="time-guest">
+               <label>Time<input type="time" required></label>
+                <label>No.of Guest<input type="text" placeholder="Enter min 3" required></label>
+               </div>
+                <label>Your Name<input type="name" placeholder="Enter Your name" required></label>
+               <label>Your Phone<input type="number" placeholder="Enter mobile number" required></label>
+               <label>Your email<input type="email" placeholder="Enter valid Email" required></label>
+               <button onclick="myFunctionreserve()">Reserve</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section-3" id="shop-now">
+        <div class="container">
+            <h3>Menu Card</h3>
+            <div class="coffee-meet-content">
+            <div class="menu-card">
+                <table>
+                    <th>Desserts</th>
+                    <th>Price</th>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>$40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Double Es</td>
+                        <td>$25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Caramel</td>
+                        <td>$45.00</td>
+                    </tr>
+                    <tr>
+                        <td>Doppio</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Espersso</td>
+                        <td>$30.00</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>$40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>$30.00</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>$25.00</td>
+                    </tr>
+                    <tr>
+                        <td>Latte</td>
+                        <td>$25.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="coffee-meet-img">
+                <img src="./images/coffee-2person.png" alt="coffee-meet">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="container">
+            <h3 id="contact">Keep in touch</h3>
+            <div class="details-input">
+            <div class="coffee-mug-img">
+                <img src="./images/Cup1.png" alt="coffee-mug">
+            </div>
+            <div class="coffee-mug-content">
+                    <h4>Contact me!</h4>
+                    <p>Subscribe to our newsletter, discounts and promotions</p>
+                    <input type="email" placeholder="Your Email address">
+                    <button onclick="myFunctionSubs()">Subscribe</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+            <div class="social-icons">
+                <h3>Also contact with</h3>
+                <ul>
+                    <li><a class="insta" href="https://instagram.com/arthi_anbalagan?igshid=Mzc0YWU1OWY="><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="youtube" href=""><i class="fa fa-youtube"></i></a></li>
+                    <li><a class="twitter" href="https://twitter.com/ArthiA06116183?t=TibdKloYa3jJ1gHLVf3uBA&s=08"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/arthi-a-608a25239"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="github" href="https://github.com/Arthi18"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-img">
+                <img src="./images/coffee machine-white.png" alt="coffee machine">
+            </div>
+        </div>
+        </div>
+        <div class="last">
+            <small>Created by @Arthi</small>
+        </div>
+    </footer>
+
+    <script>
+        function myFunctionreserve(){
+            alert("Your reservation has booked! Thank You!")
+        }
+        function myFunctionSubs(){
+            alert("Thank You for Subscribe!")
+        }
+    </script>
+</body>
+</html>

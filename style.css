@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+p{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+h3{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px 0;
+    color: chocolate;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px #000000;
+    color: yellow;
+}
+input[type="email"]:invalid{
+    border: 3px solid red;
+}
+.placeholder{
+    color: lightgray;
+}
+.offer-details,
+.coffee-machine-content1{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #54372B;    
+}
+header{
+    height: 130px;
+    background: linear-gradient(to top, #221518, #000000); 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    padding: 15px;
+}
+.logo> img{
+    height: 100px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: large;
+}
+.nav-elements ul li{
+    list-style: none;
+    padding: 0 50px;
+}
+.nav-elements ul li a:hover{
+    color: #FF7F50;
+    cursor: pointer;
+}
+a:hover> :not(:hover){
+    opacity: .3;
+}
+
+/* main */
+main{
+    height: 650px;
+    background-color: #221518;
+}
+.hero-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height: 500px;
+}
+.Hero-content h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    color: white;
+}
+.Hero-content p{
+    font-size: 30px;
+    color: white;
+    padding: 50px 0;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: 3px solid white;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #54372B;
+}
+.hero-img img{
+    padding-top: 100px;
+}
+/* section-1 */
+.section-1{
+    height: 600px;
+    padding: 50px 0;
+    background-color: #221518;
+}
+.coffee-machine-content1{
+    height: 500px;
+    width: 1400px;
+    border-radius: 30px;
+}
+.coffee-machine-img img{
+    height: 500px;
+}
+.about-coffee-machine{
+    width: 700px;
+    padding: 0 70px;
+}
+/* article */
+article{
+    height: 400px;
+    text-align: center;
+    background-color: #221518;
+}
+.service-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #54372B;
+}
+.img1 img{
+    height: 100px;
+    padding: 10px 0;
+}
+.img1 p{
+    height: 30px;
+    padding: 10px 0;
+}
+/* article-offer */
+.offer{
+    height: 500px;
+    padding: 50px 0;
+}
+.offer-details{
+    height: 400px;
+    width: 1400px;
+    border-radius: 30px; 
+}
+.offer-content{
+    width: 650px;
+}
+/* reserve-section */
+.reserve-section-2{
+    height: 700px;
+    padding: 50px 0;
+    background-color: #54372B;
+}
+.reserve-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coffee-reserve-img img{
+    height: 500px;
+}
+.coffee-reserve-form{
+    width: 540px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    font-size: larger;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 24px 14px 12px;
+    width: 540px;
+    height: 54px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #221518;
+    letter-spacing: 2px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 12px;
+}
+.time-guest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+input[type=time],
+input[type=text]{
+    width: 230px;
+    height: 55px;
+}
+/* section-3 */
+.section-3{
+    /* height: 500px; */
+    background-color: #221518;
+}
+.coffee-meet-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-card, table{
+    height: 700px;
+    width: 900px;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    background: linear-gradient(to right, #a73737, #7a2828);
+}
+table tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+table th{
+    padding: 30px 0;
+    font-size: xx-large;
+    color: goldenrod;
+}
+table td{
+    padding: 20px 40px;
+    color: palegoldenrod;
+}
+/* section-4 */
+.section-4{
+    padding: 70px 0;
+    background-color:#221518;
+}
+.details-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.coffee-mug-img img{
+    height: 340px;
+}
+.coffee-mug-content p{
+    padding: 10px;
+}
+.coffee-mug-content button{
+    margin: 20px 0;
+}
+/* footer */
+footer{
+    height: 700px;
+    background: linear-gradient(to top, #000000, #221518); 
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+}
+/* .social-icons{
+    padding: 0 30px;
+} */
+ul li{
+    list-style: none;
+    font-size: 50px;
+}
+li a i{
+    font-size: 25px;
+    padding: 30px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+.insta:hover{
+    color: purple;
+}
+.youtube:hover{
+    color: red;
+}
+.twitter:hover{
+    color: skyblue;
+}
+.linkedin:hover{
+    color: blue;
+}
+.github:hover{
+    color: black;
+}
